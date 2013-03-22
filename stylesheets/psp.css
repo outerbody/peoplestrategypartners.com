@@ -1,0 +1,182 @@
+
+/* todo yui */
+
+body {
+  xbackground-color: #cccccc;
+  background: #369 url(/images/backdrop.gif) repeat-x scroll 0px 0px;
+}
+
+#content{
+  background-color: white;
+  margin: auto;
+  width: 800px;
+  border-left: 1px solid #336699;
+  border-right: 1px solid #336699;
+  padding: 0px 16px;
+}
+
+#header{
+  height: 100px;
+  background: #fff url(/images/psphead.png) no-repeat scroll 0px 0px;
+}
+
+
+
+
+#logo{
+float: left;
+
+}
+
+#tagline{
+  text-align:center;
+  padding-bottom: 6px;
+}
+
+
+
+#main{
+  background: #fff url(/images/pspslide.png) repeat-y scroll 0px 0px;
+
+
+}
+
+
+.box {
+  border: 1px solid #ccc;
+  border-top: 9px solid #E18906;
+  border-top: 9px solid #336699;
+  border-top: 16px solid #FAC31A;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: white;
+  font-family: arial;
+}
+
+
+.box.white {
+  border: 0;
+  margin-top: 16px;
+  background: transparent;
+}
+
+.box a {
+  color: #369;
+}
+
+.box h1 {
+  color: #369; 
+  font-weight: bold; 
+  font-size: 14px;
+}
+
+a.quiet {
+  text-decoration: none;
+}
+
+#left-column{
+  float: left;
+  width: 230px;
+}
+
+#left-column .box {
+  width: 200px;
+}
+
+
+#menu {
+  float: left;
+}
+
+#menu p {
+  margin: 9px 0;
+}
+
+#player {
+  float: right;
+  padding: 0 0 12px 12px;
+}
+
+#calendar {
+  float: left;
+  width: 210px;
+
+}
+
+.column {
+  float: left;
+  width: 230px;
+  margin-left: 16px;
+}
+
+.column .box {
+  width: 200px;
+}
+
+
+#right-column{
+  float: left;
+  width: 540px;
+  padding-left: 18px;
+}
+
+#welcome{
+  xfloat: left;
+  color: #333;
+  xborder-left: 1px solid #ccc;
+  
+}
+
+#resources {
+  font-size: 88%;
+}
+
+#resources img {
+  float: right
+}
+
+#resources h2 {
+  color: #369;
+  text-align: center;
+  margin: 0;
+  margin-top: 26px;
+}
+
+#footer{
+  background: #fff url(/images/pspslide.png) repeat-y scroll 0px 0px;
+  color: #ccc;
+  padding: 16px;
+  text-align: center;
+}
+
+#footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+span.people { 
+  font-size: 111%;
+  font-weight: bold;
+  xpadding: 1px 2px; 
+  xbackground-color: #FAC31A; 
+  color: #369
+}
+
+span.strategy { 
+  font-size: 111%;
+  font-weight: bold;
+  xpadding: 1px 2px; 
+  xbackground-color: #369; 
+  color: #FAC31A
+}
+
+
+
+.clearDiv{
+	clear:both;
+}
